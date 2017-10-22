@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/textviewTeamNumber"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imageViewTeamLogo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toEndOf="@id/textviewTeamNumber"
+        android:layout_toRightOf="@id/textviewTeamNumber"
+        android:padding="10dp"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/textViewTeamName"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/imageViewTeamLogo"
+        android:layout_toRightOf="@id/imageViewTeamLogo"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/textViewTotalPoint"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textViewPlayedGameNumber"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/textViewTotalPoint"
+        android:layout_toStartOf="@id/textViewTotalPoint"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textAlignment="center" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="#e5e5e5" />
+
+</RelativeLayout>

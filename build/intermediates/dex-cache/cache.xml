@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/goksenin.barutcu/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/goksenin.barutcu/Documents/GokseninBarutcu/PositiveDigitalAssesment/app/build/intermediates/pre-dexed/debug/gson-2.7_bb1a38d7e2d2c7a21ff3d236394879778084d64c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/goksenin.barutcu/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Users/goksenin.barutcu/Documents/GokseninBarutcu/PositiveDigitalAssesment/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0_ee07257efb1cda27d3314bb243b2af91db6bf15e.jar" />
+    </item>
+
+</items>
