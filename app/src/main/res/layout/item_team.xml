@@ -28,7 +28,9 @@
         android:layout_height="match_parent"
         android:layout_toEndOf="@id/imageViewTeamLogo"
         android:layout_toRightOf="@id/imageViewTeamLogo"
-        android:padding="10dp" />
+        android:gravity="center"
+        android:padding="10dp"
+        android:textAlignment="center" />
 
     <TextView
         android:id="@+id/textViewTotalPoint"

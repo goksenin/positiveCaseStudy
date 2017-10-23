@@ -16,7 +16,7 @@ import com.aytengoksenin.barutcu.positivedigitalassesment.Fragment.TeamListFragm
 public class ScoreTableFragmentPagerAdapter extends FragmentPagerAdapter {
 
     private Context mContext;
-    private String tabTitles[] = new String[] { "Süper Lig", "İngiltere Premier Ligi" };
+    private String tabTitles[] = new String[] { "SÜPER LİG", "İNGİLTERE PREMİER LİGİ" };
     public ScoreTableFragmentPagerAdapter(FragmentManager fm)
     {
         super(fm);
